@@ -1,0 +1,193 @@
+import { Brand } from "@/types/brand";
+import accuKnoxLogo from "../../public/images/brands/AccuKnox/accuknox-logo.webp";
+import fortinetLogo from "../../public/images/brands/Fortinet/fortinet-logo.svg";
+
+const brandsData: Brand[] = [
+  // Existing partners
+  {
+    id: 1,
+    name: "Fortinet",
+    href: "https://www.fortinet.com",
+    image: fortinetLogo,
+    imageLight: fortinetLogo,
+  },
+  {
+    id: 2,
+    name: "AccuKnox",
+    href: "https://www.accuknox.com",
+    image: accuKnoxLogo,
+    imageLight: accuKnoxLogo,
+  },
+  
+  // New vendors from RAS Infotech
+  {
+    id: 3,
+    name: "WithSecure",
+    href: "https://www.withsecure.com",
+    image: "/images/brands/vendors/withsecure.png",
+    imageLight: "/images/brands/vendors/withsecure.png",
+  },
+  {
+    id: 4,
+    name: "Acronis",
+    href: "https://www.acronis.com",
+    image: "/images/brands/vendors/acronis.png",
+    imageLight: "/images/brands/vendors/acronis.png",
+  },
+  {
+    id: 5,
+    name: "Trustwave",
+    href: "https://www.trustwave.com",
+    image: "/images/brands/vendors/trustwave.png",
+    imageLight: "/images/brands/vendors/trustwave.png",
+  },
+  {
+    id: 6,
+    name: "Genians",
+    href: "https://www.genians.com",
+    image: "/images/brands/vendors/genians.png",
+    imageLight: "/images/brands/vendors/genians.png",
+  },
+  {
+    id: 7,
+    name: "Jetico",
+    href: "https://www.jetico.com",
+    image: "/images/brands/vendors/jetico.png",
+    imageLight: "/images/brands/vendors/jetico.png",
+  },
+  {
+    id: 8,
+    name: "KnowBe4",
+    href: "https://www.knowbe4.com",
+    image: "/images/brands/vendors/knowbe4.png",
+    imageLight: "/images/brands/vendors/knowbe4.png",
+  },
+  {
+    id: 9,
+    name: "Segura",
+    href: "https://www.segura.com",
+    image: "/images/brands/vendors/segura.png",
+    imageLight: "/images/brands/vendors/segura.png",
+  },
+  {
+    id: 10,
+    name: "Kiteworks",
+    href: "https://www.kiteworks.com",
+    image: "/images/brands/vendors/kiteworks.png",
+    imageLight: "/images/brands/vendors/kiteworks.png",
+  },
+  {
+    id: 11,
+    name: "Logsign",
+    href: "https://www.logsign.com",
+    image: "/images/brands/vendors/logsign.png",
+    imageLight: "/images/brands/vendors/logsign.png",
+  },
+  {
+    id: 12,
+    name: "MiniOrange",
+    href: "https://www.miniorange.com",
+    image: "/images/brands/vendors/miniorange.png",
+    imageLight: "/images/brands/vendors/miniorange.png",
+  },
+  {
+    id: 13,
+    name: "Red Sift",
+    href: "https://www.redsift.com",
+    image: "/images/brands/vendors/redsift.png",
+    imageLight: "/images/brands/vendors/redsift.png",
+  },
+  {
+    id: 14,
+    name: "Blancco",
+    href: "https://www.blancco.com",
+    image: "/images/brands/vendors/blancco.png",
+    imageLight: "/images/brands/vendors/blancco.png",
+  },
+  {
+    id: 15,
+    name: "Hexnode",
+    href: "https://www.hexnode.com",
+    image: "/images/brands/vendors/hexnode.png",
+    imageLight: "/images/brands/vendors/hexnode.png",
+  },
+  {
+    id: 16,
+    name: "Syncdog",
+    href: "https://www.syncdog.com",
+    image: "/images/brands/vendors/syncdog.png",
+    imageLight: "/images/brands/vendors/syncdog.png",
+  },
+  {
+    id: 17,
+    name: "Exeon",
+    href: "https://www.exeon.ch",
+    image: "/images/brands/vendors/exeon.png",
+    imageLight: "/images/brands/vendors/exeon.png",
+  },
+  {
+    id: 18,
+    name: "Securetrust",
+    href: "https://www.securetrust.com",
+    image: "/images/brands/vendors/securetrust.png",
+    imageLight: "/images/brands/vendors/securetrust.png",
+  },
+  {
+    id: 19,
+    name: "F-Secure",
+    href: "https://www.f-secure.com",
+    image: "/images/brands/vendors/fsecure.png",
+    imageLight: "/images/brands/vendors/fsecure.png",
+  },
+  {
+    id: 20,
+    name: "Motadata",
+    href: "https://www.motadata.com",
+    image: "/images/brands/vendors/motadata.png",
+    imageLight: "/images/brands/vendors/motadata.png",
+  },
+  {
+    id: 21,
+    name: "Somansa",
+    href: "https://www.somansa.com",
+    image: "/images/brands/vendors/somansa.png",
+    imageLight: "/images/brands/vendors/somansa.png",
+  },
+  {
+    id: 22,
+    name: "Codetwo",
+    href: "https://www.codetwo.com",
+    image: "/images/brands/vendors/codetwo.png",
+    imageLight: "/images/brands/vendors/codetwo.png",
+  },
+  {
+    id: 23,
+    name: "Randtronics",
+    href: "https://www.randtronics.com",
+    image: "/images/brands/vendors/randtronics.png",
+    imageLight: "/images/brands/vendors/randtronics.png",
+  },
+  {
+    id: 24,
+    name: "NetGain Systems",
+    href: "https://www.netgainsystems.com",
+    image: "/images/brands/vendors/netgain.png",
+    imageLight: "/images/brands/vendors/netgain.png",
+  },
+  {
+    id: 25,
+    name: "Sparrow",
+    href: "https://www.sparrowcyber.com",
+    image: "/images/brands/vendors/sparrow.png",
+    imageLight: "/images/brands/vendors/sparrow.png",
+  },
+  {
+    id: 26,
+    name: "Greenbone",
+    href: "https://www.greenbone.net",
+    image: "/images/brands/vendors/greenbone.png",
+    imageLight: "/images/brands/vendors/greenbone.png",
+  },
+];
+
+export default brandsData;
